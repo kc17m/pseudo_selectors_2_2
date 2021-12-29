@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap");
+
+body {
+    background: rgb(235, 241, 243);
+}
+
+h3:hover {
+    color: red;
+    font-size: larger;
+
+}
+
+li:nth-of-type(1) {
+    font-family: Tahoma;
+    color: #4E342E;
+}
+
+li:nth-of-type(2) {
+    font-family: "Montserrat";
+    color: #689F38
+
+}
+
+li:nth-of-type(3) {
+    font-family: "Raleway";
+    color: #EF5350;
+}
+
+p:nth-of-type(1) {
+    color: #999;
+}
+
+p {
+    font-size: 26px;
+}
+
+p:last-child {
+    font-size: initial;
+}
+
+p:nth-of-type(even) {
+    color: #0277bd;
+}
+
+footer {
+    text-align: center;
+}
+
+button {
+    border: 2px solid black;
+    padding: 10px 50px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    background: linear-gradient(to bottom right, purple, rgb(119, 119, 204));
+}
+
+button:hover {
+    font-size: 1.5em;
+    color: black;
+    background: linear-gradient(to bottom right, rgb(119, 128, 0), rgb(119, 187, 204));
+}
+
+button:active {
+    font-size: 1.5em;
+    color: black;
+    background: linear-gradient(to bottom right, rgb(0, 70, 128), rgb(119, 204, 152));
+}
+
+
+
+
+    
+
